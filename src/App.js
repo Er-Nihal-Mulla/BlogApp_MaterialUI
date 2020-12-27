@@ -1,4 +1,7 @@
 import React from 'react';
+import {Navbar} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import web1 from './images/TP.png'
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -233,6 +236,36 @@ function App() {
           <Pagination count={10} />
         </Box>
       </Container>
+     
+
+
+
+
+
+      
+  
+  <br />
+  <Navbar bg="dark" variant="dark">
+    <Navbar.Brand href="https://mr-nihal-mulla.github.io/V-Company">
+      <img
+        alt=""
+        src={web1}
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+      />{' '}
+     Designed & Developed by TechProps
+    </Navbar.Brand>
+  </Navbar>
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
